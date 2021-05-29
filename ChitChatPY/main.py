@@ -20,8 +20,4 @@ class TestCase:
       print(f"{style.RED}❌  {self.name} failed\nExpected: \n{style.RESET}{style.CYAN}  {value}\n{style.RESET}{style.RED}But recieved:\n{style.RESET}{style.CYAN}  {self.data}\n{style.RESET}")
 
 
-      
-def add(num1, num2):
-  return num1 + num2 
-myTest = TestCase('Example test', add(2, 2))
-myTest.expectToBe(6)
+    

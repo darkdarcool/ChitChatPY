@@ -5,12 +5,12 @@ with open("README.md", "r") as fh:
 # delete the url info if error, also change version in an update
 setup(
   name = "ChitChatPY",
-  version = "0.0.1",
+  version = "0.0.2",
   description = "Unit test for python",
   long_description = long_description,
   long_description_content_type = "text/markdown",
   author = "darkdarcool30",
-  url = "hsdhsd",
+  url = "https://github.com/darkdarcool/ChitChatPY",
   author_email = "darkdarcool@gmail.com",
 #To find more licenses or classifiers go to: https://pypi.org/classifiers/
   license = "GNU General Public License v3 (GPLv3)",
